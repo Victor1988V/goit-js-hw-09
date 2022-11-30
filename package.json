@@ -1,0 +1,32 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor1988V/goit-js-hw-09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victor1988V/goit-js-hw-09/issues"
+  },
+  "homepage": "https://github.com/Victor1988V/goit-js-hw-09#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "flatpickr": "^4.6.13",
+    "lodash.throttle": "^4.1.1",
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.4"
+  }
+}
